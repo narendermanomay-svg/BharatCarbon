@@ -55,7 +55,7 @@ export default function Footer() {
         <Instagram className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
         <Youtube className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
       </div>
-        
+      </div>  
         <div className="mt-8">
         <h4 className="font-semibold mb-3">Contact</h4>
         <p className="text-gray-300 text-sm">
