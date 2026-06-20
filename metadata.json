@@ -1,0 +1,6 @@
+{
+  "name": "BharatCarbon - Indian Carbon Credit Marketplace",
+  "description": "Indian Carbon Credit Marketplace and advisory platform where businesses can calculate, trade, and offset verified carbon credits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
