@@ -16,6 +16,7 @@ import Services from './components/Services';
 import ProjectsSection from './components/ProjectsSection';
 import Calculator from './components/Calculator';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import { Leaf, Award, Globe, Shield, RefreshCw } from 'lucide-react';
 
