@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Leaf, TrendingUp, Menu, X, ArrowUpRight } from 'lucide-react';
 
+import logo from '../logo.png.png';
+
 interface NavbarProps {
   activeSection: string;
   onNavigate: (sectionId: string) => void;
@@ -82,19 +84,11 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           {/* Logo */}
           <button 
             onClick={() => handleMenuClick('home')}
-            className="flex items-center space-x-2 text-left cursor-pointer group"
-          >
-            <div className="bg-[#1b4332] p-2 rounded-lg text-white group-hover:scale-105 transition-transform duration-200">
-              <Leaf className="h-5 w-5 fill-[#cbdaa9]" />
-            </div>
-            <div>
-              <span className="font-display font-bold text-lg md:text-xl text-[#1b4332] block tracking-tight">
-                BharatGreenCarbon
-              </span>
-              <span className="text-[10px] font-mono tracking-widest text-[#cbdaa9] block -mt-1 font-bold uppercase">
-                Carbon India Registry
-              </span>
-            </div>
+            <img
+  src={logo}
+  alt="BharatGreenCarbon"
+  className="h-20 w-auto"
+/>    
           </button>
 
           {/* Desktop Links */}
