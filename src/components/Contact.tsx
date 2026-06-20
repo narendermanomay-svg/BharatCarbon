@@ -119,7 +119,7 @@ I am interested in procuring verified offsets.
                   </div>
                   <div>
                     <h4 className="text-xs font-bold font-mono text-gray-400 uppercase">TELEPHONE CALL & WHATSAPP</h4>
-                    <p className="text-base text-gray-900 font-medium font-mono">+91 9999 999 999</p>
+                    <p className="text-base text-gray-900 font-medium font-mono">+91 9220 756 669</p>
                     <span className="text-[10px] text-emerald-800 bg-[#cbdaa9]/20 font-semibold px-2 py-0.5 rounded font-mono">
                       IST 10:00 - 19:00, Mon-Sat
                     </span>
@@ -132,7 +132,7 @@ I am interested in procuring verified offsets.
                   </div>
                   <div>
                     <h4 className="text-xs font-bold font-mono text-gray-400 uppercase">OFFICIAL ESG AGENTS EMAIL</h4>
-                    <p className="text-base text-gray-900 font-medium font-mono">esg@bharatcarbon.com</p>
+                    <p className="text-base text-gray-900 font-medium font-mono">info@bharatgreencarbon.com</p>
                     <p className="text-[11px] text-gray-400">Response average: 2 hours</p>
                   </div>
                 </div>
@@ -242,7 +242,7 @@ I am interested in procuring verified offsets.
                       name="phone"
                       value={form.phone}
                       onChange={handleInputChange}
-                      placeholder="e.g. +91 98765 43210"
+                      placeholder="e.g. +91 92207 56669"
                       className="w-full bg-gray-50 border border-gray-200 text-sm px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1b4332]/20 focus:border-[#1b4332] transition"
                     />
                   </div>
