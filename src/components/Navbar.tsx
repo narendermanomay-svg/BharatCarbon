@@ -89,7 +89,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
             </div>
             <div>
               <span className="font-display font-bold text-lg md:text-xl text-[#1b4332] block tracking-tight">
-                BharatCarbon
+                BharatGreenCarbon
               </span>
               <span className="text-[10px] font-mono tracking-widest text-[#cbdaa9] block -mt-1 font-bold uppercase">
                 Carbon India Registry
