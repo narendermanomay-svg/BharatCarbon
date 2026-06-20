@@ -36,7 +36,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 </span>
               </h1>
               <p className="text-gray-600 text-lg sm:text-xl max-w-xl font-sans leading-relaxed">
-                BharatCarbon is India's premium tech-integrated marketplace for verified carbon offsets. Connect with top-tier indigenous renewable, agricultural, and afforestation projects.
+                BharatGreenCarbon is India's premium tech-integrated marketplace for verified carbon offsets. Connect with top-tier indigenous renewable, agricultural, and afforestation projects.
               </p>
             </div>
 
