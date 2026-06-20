@@ -165,25 +165,7 @@ export default function App() {
             </div>
           </div>
 
-          {/* Bottom Copyright & Badges */}
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-6 text-xs text-gray-500 font-mono">
-            <p>© {new Date().getFullYear()} BharatGreenCarbon Registry Platform. All rights reserved.</p>
-            
-            {/* Security and compliance symbols */}
-            <div className="flex flex-wrap gap-4 items-center">
-              <span className="flex items-center gap-1">
-                <Shield className="h-3.5 w-3.5 text-emerald-500" />
-                <span>Anti-Double Spend Certified</span>
-              </span>
-              <span className="flex items-center gap-1">
-                <Globe className="h-3.5 w-3.5 text-emerald-500" />
-                <span>SDG Aligned Portfolio</span>
-              </span>
-            </div>
-          </div>
-
-        </div>
-      </footer>
+      <Footer />
 
       {/* Floating Interactive Lead Generation assistance button */}
       <WhatsAppButton />
