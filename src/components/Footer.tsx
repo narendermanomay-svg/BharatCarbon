@@ -6,11 +6,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
 
         <div>
-  <img
+  <div className="bg-white p-3 rounded-xl inline-block mb-4">
+    <img
     src={logo}
     alt="BharatGreenCarbon"
-    className="h-16 mb-4"
+    className="h-16"
   />
+  </div>
 
   <h3 className="text-xl font-bold text-green-400">
     BharatGreenCarbon
