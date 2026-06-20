@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Leaf, TrendingUp, Menu, X, ArrowUpRight } from 'lucide-react';
 
-import logo from '../logo.png.png';
+import logo from '../logo.png';
 
 interface NavbarProps {
   activeSection: string;
