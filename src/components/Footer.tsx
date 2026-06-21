@@ -68,11 +68,6 @@ export default function Footer() {
     ✉️ info@bharatgreencarbon.com
   </p>
 </div>
-        <div className="flex gap-4 mt-4">
-        <Linkedin className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
-        <Instagram className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
-        <Youtube className="w-5 h-5 text-white hover:text-green-400 cursor-pointer" />
-        </div>
         
   <h4 className="font-semibold mb-3 mt-6">Location</h4>
 
