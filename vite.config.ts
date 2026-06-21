@@ -12,11 +12,10 @@ export default defineConfig(() => {
       hostname: 'https://bharatgreencarbon.com'
     }),
     ],
-      resolve: {
+  resolve: {
   alias: {
     '@': path.resolve(__dirname, '.'),
   },
-},
-    },
-  };
+}
+};
 });
