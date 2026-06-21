@@ -94,29 +94,26 @@ export default function Hero({ onNavigate }: HeroProps) {
                     <Award className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-[#0f251c]">National Target Compliance</h3>
-                    <p className="text-[11px] text-gray-500">Panchamrit Climate Pledges</p>
+                    <h3 className="text-sm font-semibold text-[#0f251c]">Trusted Carbon Solutions</h3>
+                    <p className="text-[11px] text-gray-500">India's Carbon Market Partner</p>
                   </div>
                 </div>
                 <div className="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded-full font-mono">
-                  ACTIVE
-                </div>
               </div>
-
               {/* Central Graphics or Mini Dashboard Visual */}
               <div className="space-y-4">
-                <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider font-mono">Indian Carbon Market Ecosystem</h4>
+                <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider font-mono">Core Services</h4>
                 
                 <div className="space-y-3">
                   {/* Item 1 */}
                   <div className="relative p-3 bg-gradient-to-r from-green-50/50 to-white hover:from-green-50 rounded-xl border border-gray-100 transition-colors flex items-center justify-between">
                     <div>
-                      <p className="text-xs text-gray-400 font-mono">PROJECT TYPE</p>
-                      <h4 className="text-sm font-semibold text-[#1b4332]">Afforestation (Western Ghats)</h4>
+                      <p className="text-xs text-gray-400 font-mono">SERVICE</p>
+                      <h4 className="text-sm font-semibold text-[#1b4332]">Carbon Credit Trading</h4>
                     </div>
                     <div className="text-right">
-                      <p className="text-[10px] text-gray-400">CREDIT SYMBOL</p>
-                      <span className="text-sm font-medium text-gray-700 font-mono">WGB-ARR-ARR</span>
+                      <p className="text-[10px] text-gray-400">MARKET</p>
+                      <span className="text-sm font-medium text-gray-700 font-mono">ICM • VCM</span>
                     </div>
                   </div>
 
@@ -124,11 +121,11 @@ export default function Hero({ onNavigate }: HeroProps) {
                   <div className="relative p-3 bg-gradient-to-r from-amber-50/20 to-white hover:from-amber-50/40 rounded-xl border border-gray-100 transition-colors flex items-center justify-between">
                     <div>
                       <p className="text-xs text-gray-400 font-mono">PROJECT TYPE</p>
-                      <h4 className="text-sm font-semibold text-amber-800">Crop Residue Clean Biomass</h4>
+                      <h4 className="text-sm font-semibold text-amber-800">Project Development</h4>
                     </div>
                     <div className="text-right">
                       <p className="text-[10px] text-gray-400">REGISTRY CODE</p>
-                      <span className="text-sm font-medium text-gray-700 font-mono">BEE-PJB-BIO</span>
+                      <span className="text-sm font-medium text-gray-700 font-mono">Consulting</span>
                     </div>
                   </div>
 
@@ -136,11 +133,11 @@ export default function Hero({ onNavigate }: HeroProps) {
                   <div className="relative p-3 bg-gradient-to-r from-blue-50/20 to-white hover:from-blue-50/40 rounded-xl border border-gray-100 transition-colors flex items-center justify-between">
                     <div>
                       <p className="text-xs text-gray-400 font-mono">PROJECT TYPE</p>
-                      <h4 className="text-sm font-semibold text-blue-800">Thar Desert Solar Arrays</h4>
+                      <h4 className="text-sm font-semibold text-blue-800">ESG & Net Zero Advisory</h4>
                     </div>
                     <div className="text-right">
                       <p className="text-[10px] text-gray-400">REGISTRY CODE</p>
-                      <span className="text-sm font-medium text-gray-700 font-mono">VCS-RAJ-SLR</span>
+                      <span className="text-sm font-medium text-gray-700 font-mono">Sustainability</span>
                     </div>
                   </div>
                 </div>
@@ -148,8 +145,8 @@ export default function Hero({ onNavigate }: HeroProps) {
                 {/* Growth indicator box */}
                 <div className="bg-[#1b4332] text-white p-4 rounded-2xl flex items-center justify-between shadow-md">
                   <div>
-                    <h5 className="text-[11px] text-[#cbdaa9] uppercase tracking-widest font-mono font-bold">Trading Volume Goal</h5>
-                    <p className="text-lg font-bold font-display mt-0.5">3.5M+ Metric Tons Carbon</p>
+                    <h5 className="text-[11px] text-[#cbdaa9] uppercase tracking-widest font-mono font-bold">Our Expertise</h5>
+                    <p className="text-lg font-bold font-display mt-0.5">End-to-End Carbon Solutions</p>
                   </div>
                   <div className="bg-emerald-900 text-[#cbdaa9] p-2.5 rounded-xl border border-[#cbdaa9]/20">
                     <TrendingUp className="h-6 w-6" />
@@ -159,7 +156,7 @@ export default function Hero({ onNavigate }: HeroProps) {
 
               {/* Subtitle / Disclaimer for Indian context */}
               <p className="text-[10.5px] text-gray-500 text-center italic font-mono">
-                "Directly aligning with the Ministry of Power, BEE guidelines, and Verra registries."
+                "Delivering carbon credit trading, project development, ESG advisory, and sustainability solutions for businesses across India."
               </p>
 
             </div>
