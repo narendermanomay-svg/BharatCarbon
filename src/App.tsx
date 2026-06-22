@@ -21,6 +21,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 import { Leaf, Award, Globe, Shield, RefreshCw } from 'lucide-react';
 import IndustriesWeServe from "./components/IndustriesWeServe";
 import WhyChooseUs from './components/WhyChooseUs';
+import SushantCard from './components/SushantCard';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -73,10 +74,14 @@ export default function App() {
   };
 
   const handleApplyOffsetToInquiry = (creditsQuantity: number) => {
-    setInquiryCredits(creditsQuantity);
-  };
+  setInquiryCredits(creditsQuantity);
+};
 
-  return (
+if (window.location.pathname === "/sushant") {
+  return <SushantCard />;
+}
+
+return (
     <div className="min-h-screen bg-white font-sans text-gray-900 selection:bg-[#cbdaa9] selection:text-[#1b4332] antialiased">
       {/* Dynamic Header & Ticker */}
       <Navbar activeSection={activeSection} onNavigate={handleNavigation} />
